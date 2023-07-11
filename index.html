@@ -27,6 +27,17 @@
         color: green;
         font-size: larger;
        }
+       .aditya li{
+        display: inline-block;
+
+       }
+       .links li{
+        display: inline;
+       }
+       .follow li{
+        display: inline;
+
+       }
 
         
     </style>
@@ -34,30 +45,31 @@
 </head>
 <body>
     <header>
-    <a id="adi"><i class="fa fa-user" aria-hidden="true"></i></a><span>Aditya Bhange</span>
-    <a id="adi"><i class="fa fa-phone-square" aria-hidden="true"></i></a><span>777 680 8499</span>
-   
-    <a id="adi"><i class="fa fa-envelope" aria-hidden="true"></i></a><span>adityab@gmail.com</span>
-    <a href="assets/Book14.pdf" target="download"><button id="adi">Download Resume</button></a>
+        <ul class="aditya">
+            <li><a id="adi"><i class="fa fa-user" aria-hidden="true"></i></a><span>Aditya Bhange</span></li>
+            <li><a id="adi"><i class="fa fa-phone-square" aria-hidden="true"></i></a><span>777 680 8499</span></li>
+            <li><a id="adi"><i class="fa fa-envelope" aria-hidden="true"></i></a><span>adityab@gmail.com</span></li>
+            <li>
+                <a href="assets/Book14.pdf" target="download"><button id="adi">Download Resume</button></a></li>
+        </ul>
     </header><br><br>
-
-    <nav>
-    <a href="home.html" target="newFrame" id="nav">Home</a>
-    <a href="techstack.html" target="newFrame" id="nav">Techstack</a>
-    <a href="project.html" target="newFrame" id="nav">Project</a>
-    <a href="education.html" target="newFrame" id="nav">Education</a>
-    <a href="aboutMe.html" target="newFrame" id="nav">About Me</a><br><br>
+   <nav>
+        <ul class="links">
+            <li><a href="home.html" target="newFrame" id="nav">Home</a></li>
+            <li><a href="techstack.html" target="newFrame" id="nav">Techstack</a></li>
+            <li><a href="project.html" target="newFrame" id="nav">Project</a></li>
+            <li><a href="education.html" target="newFrame" id="nav">Education</a></li>
+            <li><a href="aboutMe.html" target="newFrame" id="nav">About Me</a></li>
+        </ul>
+    <br><br>
    </nav>
-
-    
-
-    <iframe width="600px" height="600px" name="newFrame" src="techstack.html" frameborder="0" id="frame"></iframe><br>
-    <span >Follow me</span>
-    <a href="https://github.com/" class="follow"><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a href="https://in.linkedin.com/" class="follow"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    <a href="https://www.instagram.com/" class="follow"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/" class="follow"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-
-    
+    <iframe width="600px" height="500px" name="newFrame" src="techstack.html" frameborder="0" id="frame"></iframe><br>
+    <ul class="follow">
+        <li><span >Follow me</span></li>
+        <li><a href="https://github.com/" class="follow"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://in.linkedin.com/" class="follow"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/" class="follow"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/" class="follow"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+    </ul>
 </body>
 </html>
