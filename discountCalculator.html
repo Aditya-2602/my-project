@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+    button[type="submit"]{
+        background-color: burlywood;
+        border-radius: 50px;
+        width: 500px;
+        height: 30px;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    .discount{
+        color: cadetblue;
+        padding-left: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .enter{
+        color: cadetblue;
+        font-weight: bolder;
+        font-size: large;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    .disc{
+        color: cadetblue;
+        font-weight: bolder;
+        margin-top: 20px;
+        padding-top: 10px;
+        font-size: large;
+        font-family: 'Roboto', sans-serif;
+    }
+    .bill{
+        color: cadetblue;
+        font-weight: bolder;
+        font-size: large;
+        width: 200px;
+        font-family: 'Roboto', sans-serif;
+    }
+    input[type="number"]{
+        width: 500px;
+        height: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .total{
+        color: cadetblue;
+        font-weight: bolder;
+        font-size: large;
+        font-family: 'Roboto', sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <table>
+        <tbody>
+            <h2 class="discount">Discount Calculator</h2>
+
+            <tr>
+                <p class="enter">Enter the Bill amount and discount in percentage</p>
+            </tr>
+            <tr>
+                <td><label class="bill">Bill Amount</label><br><br>
+                    <input type="number">
+                </td>
+                </tr>
+                
+            <tr>
+                <td><label class="disc">Discount Percentage</label><br><br>
+                <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <button type="submit">Calculate</button>
+        </td>
+            </tr>
+            <tr>
+                <td class="total">Total Discount Amount</td>
+            </tr>
+        </tbody>
+    </table>
+</fieldset>
+</body>
+</html>
