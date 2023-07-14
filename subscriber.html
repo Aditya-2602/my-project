@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <style>
+    input[type="email"]{
+        display: inline-block;
+    }
+    p{
+        background-color: rgb(64, 155, 192);
+        color:white;
+        font-size: larger;
+        font-family: 'Roboto Slab', serif;
+        width:430px;
+        height: 250px;
+
+    
+    }
+    button[type="submit"]{
+        text-align: end;
+        font-size: larger;
+        margin-left: 315px;
+        background-color: rgb(192, 144, 109)
+    }
+    .mail{
+        font-size: larger;
+        font-family: 'Roboto Slab', serif;
+        color: chocolate;
+    }
+    .reason{
+        font-size: larger;
+        font-family: 'Roboto Slab', serif;
+        color: chocolate;
+    }
+    input[type="email"]{
+        font-size: larger;
+        border-radius: 30px;
+        width: 430px;
+        height: 30px;
+        background-color: cornsilk;
+        
+    }
+    input[type="text"]{
+        font-size: larger;
+        border-radius: 30px;
+        width:430px;
+        height:30px;
+        background-color: cornsilk; 
+    }
+    h2{
+        color: chocolate;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Subscriber</h2>
+    
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <p>We're sorry to see you go, but hey, no hard<br>
+                        feelings, hopefully we will see you back<br>
+                        one day.<br>
+                        Fill fill in your email address in order to<br>
+                        unsubscribe from the list.<br>
+                        You will receive an email to confirm your<br>
+                        unsubscription, just to make sure this is<br>
+                        not an accident or somebody else tries to<br>
+                        unsubscribe you. 
+                    </p>
+                </tr>
+                <tr>
+                    <td><label class="mail">Email*</label><br>
+                   <input type="email" required ><br><br> 
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="reason">Unsubscribe reason</label><br>
+                        <input type="text" placeholder="Unsubscribe reason"><br><br>
+                    </td>
+                
+                
+                <tr>
+                    <td><hr><button type="submit">Unsubscribe</button></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
